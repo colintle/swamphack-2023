@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/colintle/swamphack-2023">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Adventure Roulette</h3>
