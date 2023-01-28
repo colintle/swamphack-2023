@@ -1,1 +1,1 @@
-# project for swamphacks IX (2023)
+# Project for SwampHacks IX (2023)
