@@ -1,22 +1,26 @@
-import {useEffect} from 'react';
+import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { useGetLocationsMutation } from '../../reducers/locations/locationSlice';
+import { useEffect } from 'react';
+import { selectAllLocations } from '../../reducers/locations/locationSlice';
+import { useState } from 'react';
 
 function LocationList() {
 
-  const {lat, long} = useParams();
-
+  const coordinates = useSelector((state) => state.coordinates);
+  const [locations, setLocations] = useState([]);
   const [getLocations, {isLoading}] = useGetLocationsMutation();
 
-  const fetchLocations = async () => {
-    const object =  await getLocations({lat, long}).unwrap();
-    console.log(object);
-  }
+  useEffect(() => {
+    const fetchLocations = async () => {
+      const locations = await getLocations(coordinates).unwrap();
+      console.log(locations);
+    }
+    fetchLocations();
+  }, [coordinates]);
 
   return (
-    <button onClick={fetchLocations}>
-      Click me
-    </button>
+    <h1>Location List</h1>
   )
 }
 
