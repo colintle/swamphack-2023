@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+#key and test
+/routes/key.js
+/routes/gmEx.js
 # testing
 /coverage
 
