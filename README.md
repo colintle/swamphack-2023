@@ -1,11 +1,8 @@
-# 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/colintle/swamphack-2023">
-    <img src="Logo.png" alt="Logo" width="320" height="160">
+    <img src="![image](https://user-images.githubusercontent.com/109694719/215283284-44983db2-6b62-4a2a-b6eb-f150924011b0.png)" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Adventure Roulette</h3>
@@ -19,3 +16,12 @@
     <a href="https://www.youtube.com/">View Demo</a>
   </p>
 </div>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Enter text here
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
