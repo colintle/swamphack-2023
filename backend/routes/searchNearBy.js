@@ -11,8 +11,7 @@ router.post('/', async(req,res, next) => {
     try {
       const lat = req.body.lat;
       const long = req.body.long;
-      const radius = "80000";
-      const type = "restaurant";
+      const radius = "80000"
       
       // generate 5 random types 
       fiveRandomTypes = getFiveRandomTypes();
