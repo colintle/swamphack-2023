@@ -6,6 +6,7 @@ router.post('/', async(req,res, next) => {
     try {
       const lat = req.body.lat;
       const long = req.body.long;
+      console.log(lat, " ", long);
       const radius = "3000";
       const type = "restaurant";
       const {data} = await axios.get(
