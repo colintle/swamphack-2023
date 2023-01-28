@@ -14,7 +14,7 @@ export const locationApiSlice = apiSlice.injectEndpoints({
                 method: "POST",
                 body: bodyMessage,
             }),
-            transformResponse: (response, meta, arg) => response.results,
+            transformResponse: (response, meta, arg) => response,
             invalidatesTags: ['Location']
         })
     })
