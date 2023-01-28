@@ -8,6 +8,7 @@
 #key and test
 /routes/key.js
 /routes/gmEx.js
+/key.js
 # testing
 /coverage
 
