@@ -16,7 +16,6 @@ router.post('/', async(req,res, next) => {
       // generate 5 random types 
       fiveRandomTypes = getFiveRandomTypes();
 
-
       // run each data for each types
       // results contain 5 places for 5 types (1 for each)
       const results = [];
@@ -27,7 +26,7 @@ router.post('/', async(req,res, next) => {
       
       res.json(results);
     } 
-      catch (err) {
+      catch (err) {  
        next(err)
      }
 })

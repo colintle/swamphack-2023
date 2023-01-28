@@ -14,7 +14,7 @@ const modifiedDataFromRawData = (rawData) => {
         result.open_now = rawData.opening_hours.open_now;
     } }
     catch(err) {
-        console.log(err);
+        console.log("OPEN_NOW is not available for this place = ", rawData.name);
     }
     return result;
 }

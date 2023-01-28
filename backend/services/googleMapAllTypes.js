@@ -6,20 +6,16 @@ allType = [ "amusement_park",
 "book_store",
 "bowling_alley",
 "cafe",
-"campground",
-"casino",
-"city_hall",
+"coffee",
 "florist",
 "hindu_temple",
 "library",
-"movie_theater",
 "museum",
 "night_club",
 "park",
 "restaurant",
 "shopping_mall",
 "spa",
-"stadium",
-"zoo"];
+"stadium"];
 
 module.exports =allType;

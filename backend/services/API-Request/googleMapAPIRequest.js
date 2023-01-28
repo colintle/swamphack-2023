@@ -13,7 +13,7 @@ const googleMapAPIRequest = async(lat,long,radius,type) => {
 
     const allRawData = data;
     if (allRawData.status === 'ZERO_RESULTS') {
-        console.log("ZERO RESULT FOR THIS TYPE");
+        console.log("ZERO RESULT FOR THIS TYPE, TYPE = ", type);
     }
     else {
         const numberOfTotalResult = allRawData.results.length;
@@ -24,7 +24,7 @@ const googleMapAPIRequest = async(lat,long,radius,type) => {
     }
     } catch(err) 
     {
-        console.log(err);
+        console.log("ERR");
     }
 
 };
