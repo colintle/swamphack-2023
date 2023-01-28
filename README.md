@@ -5,7 +5,7 @@
     <img src="Logo.png" alt="Logo" width="320" height="180">
   </a>
 
-  <h3 align="center">Adventure Roulette</h3>
+  <h3 align="center">Let Adventure Roulette be your guide to the unknown</h3>
 
   <p align="center">
     A project created for SwampHacks IX (2023)!
