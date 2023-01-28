@@ -17,7 +17,7 @@ function LocationList() {
       console.log(locations);
     }
     fetchLocations();
-  }, [coordinates]);
+  }, []);
 
   return (
     <h1>Location List</h1>
