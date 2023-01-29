@@ -36,14 +36,20 @@ function Locations() {
 
   return (
     <>
-      <h1>Locations</h1>
+      <h1 className="location">Locations</h1>
       {places && places.map(place => (
         <div>
-          <h1>{place.name}</h1>
-          <img src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${place.photo_reference}&key=${Key}`}></img>
-          <h2>{place.address}</h2>
-          <h2>{place.rating}</h2>
-          {place.types.map(tag => <p>{tag}</p>)}
+          <h1 className='place'>{place.name}</h1>
+          <div className='detail'>
+            <img  src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${place.photo_reference}&key=${Key}`}></img>
+          </div>
+          
+          <h2 className="address">{place.address}</h2>
+          <h2 className="rate">{place.rating}</h2>
+          <div className="maps" >
+            {place.types.map(tag => <p>{tag}</p>)}
+          </div>
+          
         </div>
       ))}
     </>

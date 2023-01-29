@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { Link} from 'react-router-dom';
 import { addCoords } from '../../reducers/coordinates/coordSlice';
 import { useNavigate } from 'react-router-dom';
-
+const logo=require('./logo.png');
 function Home() {
     const dispatch = useDispatch();
     const { coords, isGeolocationAvailable, isGeolocationEnabled } =
@@ -23,8 +23,13 @@ function Home() {
     ) : !isGeolocationEnabled ? (
         <div>Geolocation is not enabled</div>
     ) : coords ? (
+       
         <div>
-            <Link to={`/locations`}>Next Page for Locations</Link>
+            <div className='logo'>
+                <img src={logo}/>
+            </div>
+            <div><button className='button'><Link to={`/locations`}>Next Page for Locations</Link></button>
+            </div>
         </div>
     ) : (
         <div>Getting the location data&hellip; </div>

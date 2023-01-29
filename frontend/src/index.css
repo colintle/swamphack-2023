@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.place{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+.detail{
+  text-align: center;
+  
+  
+}
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+    }
+
+.address{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+.rate{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+.maps{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+.location{
+  color: cyan;
+  text-shadow: 2px 2px 2px #000000;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  text-align: center;
 }
