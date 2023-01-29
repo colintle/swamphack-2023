@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const axios = require('axios')
-const key = require('../../routes/key');
+const key = require('../../key');
 const randomNumberGenerator = require("../randomNumberGenerator");
 const modifiedDataFromRawData = require("./modifiedDataFromRawData");
 
