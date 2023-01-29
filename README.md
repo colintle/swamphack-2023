@@ -10,6 +10,6 @@
   <p align="center">
     A project created for SwampHacks IX (2023)!
     <br />
-    <a href="https://www.youtube.com/">View Demo</a>
+    <a href="https://youtu.be/oek4LtvjRyw">View Demo</a>
   </p>
 </div>
