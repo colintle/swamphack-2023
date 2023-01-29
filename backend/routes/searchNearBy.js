@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 const axios = require('axios')
-const key = require('./key');
 const googleMapAPIRequestSingleData = require('../services/API-Request/googleMapAPIRequest');
 
 const getFiveRandomTypes = require('../services/googleMapTypeRandom');

@@ -9,6 +9,7 @@
 /routes/key.js
 /routes/gmEx.js
 /key.js
+/services/API-Request/key.js
 # testing
 /coverage
 
