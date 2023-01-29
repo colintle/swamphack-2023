@@ -16,10 +16,3 @@
     <a href="https://www.youtube.com/">View Demo</a>
   </p>
 </div>
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-Enter text here
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
